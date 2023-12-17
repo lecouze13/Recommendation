@@ -1,0 +1,36 @@
+[
+    {
+        "text": "Je parle couramment anglais.",
+        "entities": [
+            {
+                "start": 20,
+                "end": 28,
+                "label": "LANG_LEVEL",
+                "value": "anglais"
+            },
+            {
+                "start": 29,
+                "end": 36,
+                "label": "LANG_LEVEL",
+                "value": "couramment"
+            }
+        ]
+    },
+    {
+        "text": "J'ai un niveau B2 en espagnol.",
+        "entities": [
+            {
+                "start": 21,
+                "end": 29,
+                "label": "LANG_LEVEL",
+                "value": "espagnol"
+            },
+            {
+                "start": 30,
+                "end": 32,
+                "label": "LANG_LEVEL",
+                "value": "B2"
+            }
+        ]
+    }
+]

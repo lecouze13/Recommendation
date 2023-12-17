@@ -1,6 +1,6 @@
 [
     {
-        "text": "John Doe est un développeur expérimenté...",
+        "text": "John Doe est né le 10 janvier 1985.",
         "entities": [
             {
                 "start": 0,
@@ -8,14 +8,14 @@
                 "label": "PER"
             },
             {
-                "start": 27,
-                "end": 46,
-                "label": "EXP"
+                "start": 21,
+                "end": 35,
+                "label": "DATE"
             }
         ]
     },
     {
-        "text": "Alice Smith travaille depuis 5 ans en tant que designer...",
+        "text": "Alice Smith a déménagé le 5 mars 1990.",
         "entities": [
             {
                 "start": 0,
@@ -23,39 +23,69 @@
                 "label": "PER"
             },
             {
-                "start": 38,
-                "end": 57,
-                "label": "EXP"
+                "start": 23,
+                "end": 33,
+                "label": "DATE"
             }
         ]
     },
     {
-        "text": "Bob est un développeur junior...",
+        "text": "Bob Johnson a commencé son travail le 15 août 1978.",
         "entities": [
             {
                 "start": 0,
-                "end": 3,
+                "end": 10,
                 "label": "PER"
             },
             {
-                "start": 20,
-                "end": 32,
-                "label": "EXP"
+                "start": 37,
+                "end": 47,
+                "label": "DATE"
             }
         ]
     },
     {
-        "text": "Alice est une designer junior...",
+        "text": "Emily Williams a voyagé le 25 avril 2000.",
         "entities": [
             {
                 "start": 0,
-                "end": 5,
+                "end": 14,
                 "label": "PER"
             },
             {
                 "start": 22,
-                "end": 34,
-                "label": "EXP"
+                "end": 32,
+                "label": "DATE"
+            }
+        ]
+    },
+    {
+        "text": "James Brown a fini ses études le 30 septembre 2010.",
+        "entities": [
+            {
+                "start": 0,
+                "end": 12,
+                "label": "PER"
+            },
+            {
+                "start": 35,
+                "end": 49,
+                "label": "DATE"
+            }
+        ]
+    },
+    {
+        "text": "Sophia Garcia a été diplômée le 20 novembre 1995.",
+        "entities": [
+            {
+                "start": 0,
+                "end": 13,
+                "label": "PER"
+            },
+            {
+                "start": 36,
+                "end": 50,
+                "label": "DATE"
             }
         ]
     }
