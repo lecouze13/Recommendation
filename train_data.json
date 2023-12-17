@@ -1,0 +1,62 @@
+[
+    {
+        "text": "John Doe est un développeur expérimenté...",
+        "entities": [
+            {
+                "start": 0,
+                "end": 8,
+                "label": "PER"
+            },
+            {
+                "start": 27,
+                "end": 46,
+                "label": "EXP"
+            }
+        ]
+    },
+    {
+        "text": "Alice Smith travaille depuis 5 ans en tant que designer...",
+        "entities": [
+            {
+                "start": 0,
+                "end": 11,
+                "label": "PER"
+            },
+            {
+                "start": 38,
+                "end": 57,
+                "label": "EXP"
+            }
+        ]
+    },
+    {
+        "text": "Bob est un développeur junior...",
+        "entities": [
+            {
+                "start": 0,
+                "end": 3,
+                "label": "PER"
+            },
+            {
+                "start": 20,
+                "end": 32,
+                "label": "EXP"
+            }
+        ]
+    },
+    {
+        "text": "Alice est une designer junior...",
+        "entities": [
+            {
+                "start": 0,
+                "end": 5,
+                "label": "PER"
+            },
+            {
+                "start": 22,
+                "end": 34,
+                "label": "EXP"
+            }
+        ]
+    }
+]
