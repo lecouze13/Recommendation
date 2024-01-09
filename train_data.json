@@ -1,6 +1,6 @@
 [
     {
-        "text": "John Doe est né le 10 janvier 1985.",
+        "text": "John Doe est né le 10 janvier 1985. Son adresse e-mail est johndoe@email.com et son numéro de téléphone est 123456789. Il est un expert en programmation.",
         "entities": [
             {
                 "start": 0,
@@ -10,81 +10,6 @@
             {
                 "start": 21,
                 "end": 35,
-                "label": "DATE"
-            }
-        ]
-    },
-    {
-        "text": "Alice Smith a déménagé le 5 mars 1990.",
-        "entities": [
-            {
-                "start": 0,
-                "end": 11,
-                "label": "PER"
-            },
-            {
-                "start": 23,
-                "end": 33,
-                "label": "DATE"
-            }
-        ]
-    },
-    {
-        "text": "Bob Johnson a commencé son travail le 15 août 1978.",
-        "entities": [
-            {
-                "start": 0,
-                "end": 10,
-                "label": "PER"
-            },
-            {
-                "start": 37,
-                "end": 47,
-                "label": "DATE"
-            }
-        ]
-    },
-    {
-        "text": "Emily Williams a voyagé le 25 avril 2000.",
-        "entities": [
-            {
-                "start": 0,
-                "end": 14,
-                "label": "PER"
-            },
-            {
-                "start": 22,
-                "end": 32,
-                "label": "DATE"
-            }
-        ]
-    },
-    {
-        "text": "James Brown a fini ses études le 30 septembre 2010.",
-        "entities": [
-            {
-                "start": 0,
-                "end": 12,
-                "label": "PER"
-            },
-            {
-                "start": 35,
-                "end": 49,
-                "label": "DATE"
-            }
-        ]
-    },
-    {
-        "text": "Sophia Garcia a été diplômée le 20 novembre 1995.",
-        "entities": [
-            {
-                "start": 0,
-                "end": 13,
-                "label": "PER"
-            },
-            {
-                "start": 36,
-                "end": 50,
                 "label": "DATE"
             }
         ]

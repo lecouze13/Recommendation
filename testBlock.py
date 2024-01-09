@@ -14,6 +14,36 @@ def extract_text_from_pdf(pdf_path):
             text += page.extract_text(encoding='utf-8')
     return text
 
+def detect_domain(text):
+    domains = {
+        'Informatique': ['informatique', 'programmation', 'développement', 'technologie'],
+        'Commerce': ['commerce', 'vente', 'marketing', 'gestion'],
+        'Finance': ['finance', 'comptabilité', 'économie', 'gestion financière'],
+        'Ressources Humaines': ['RH', 'ressources humaines', 'recrutement', 'formation'],
+        'Ingénierie': ['ingénierie', 'ingénieur', 'technique', 'conception'],
+        'Santé': ['santé', 'médical', 'soins', 'pharmacie'],
+        'Éducation': ['éducation', 'enseignement', 'pédagogie', 'formation'],
+        'Art et Culture': ['art', 'culture', 'musique', 'théâtre'],
+        'Administration': ['administration', 'gestion administrative', 'bureautique'],
+        'Environnement': ['environnement', 'écologie', 'développement durable'],
+        'Communication': ['communication', 'relations publiques', 'médias', 'journalisme'],
+        'Agriculture': ['agriculture', 'agronomie', 'agroalimentaire'],
+        'Tourisme': ['tourisme', 'voyage', 'hôtellerie', 'guidage'],
+        'Droit': ['droit', 'juridique', 'justice', 'avocat'],
+        'Transport et Logistique': ['transport', 'logistique', 'supply chain', 'entreposage']
+        # Ajoute d'autres domaines avec leurs mots-clés associés ici
+    }
+
+    text_lower = text.lower()
+
+    for domain, keywords in domains.items():
+        for keyword in keywords:
+            if keyword in text_lower:
+                return domain
+
+    return None
+
+
 def extract_phone_numbers(text):
     phone_numbers = re.findall(r'\b\d{2}[-.\s]?\d{2}[-.\s]?\d{2}[-.\s]?\d{2}[-.\s]?\d{2}\b', text)
     return phone_numbers
@@ -95,3 +125,11 @@ print("\nLangues détectées :")
 print(languages)
 print("\nAdresses trouvées :")
 print(addresses)
+# Utilisation de la fonction pour détecter le domaine dans le texte extrait
+domain_detected = detect_domain(extracted_text)
+
+# Affichage du domaine détecté
+if domain_detected:
+    print(f"Domaine détecté : {domain_detected}")
+else:
+    print("Domaine non identifié.")

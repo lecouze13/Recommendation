@@ -18,8 +18,8 @@
   },
   "labels":{
     "ner":[
-      "DATE",
-      "EXP",
+      "EXPERIENCE",
+      "LANG_LEVEL",
       "PER"
     ]
   },

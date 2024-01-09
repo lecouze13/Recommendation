@@ -1,0 +1,32 @@
+[
+    {
+        "text": "Votre texte annoté ici",
+        "entities": [
+            {
+                "start": 0,
+                "end": 10,
+                "label": "TYPE_ENTITÉ"
+            },
+            {
+                "start": 15,
+                "end": 25,
+                "label": "AUTRE_TYPE"
+            }
+        ]
+    },
+    {
+        "text": "Autre texte annoté",
+        "entities": [
+            {
+                "start": 0,
+                "end": 5,
+                "label": "ENTITÉ_EXEMPLE"
+            },
+            {
+                "start": 10,
+                "end": 20,
+                "label": "AUTRE_ENTITÉ"
+            }
+        ]
+    }
+]
